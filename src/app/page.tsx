@@ -7,13 +7,13 @@ import CodingClassFeatures from '@/components/ui/codingclassfeatures';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-full bg-gradient-to-r from-primary/10 via-primary/5 to-primary/5 md:py-24">
+    <div>
 
       {/* Navigation */}
       <Navigation />
 
       {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center justify-center py-16 px-6 space-y-12 md:space-y-0 md:space-x-12">
+      <section className="flex flex-col pt-36 md:flex-row items-center bg-gradient-to-r from-primary/10 via-primary/5 to-primary/5 justify-center py-16 px-6 space-y-12 md:space-y-0 md:space-x-12">
         {/* Left Side */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-6 md:w-1/2">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
