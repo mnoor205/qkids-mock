@@ -4,7 +4,7 @@ import Link from "next/link"
 export default async function Navigation() {
 
     return (
-        <div className="fixed top-0 right-0 left-0 p-4 flex items-center justify-between z-10 dark:bg-white/5 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/5  backdrop-blur-lg transition-all">
+        <div className="fixed top-0 right-0 left-0 p-4 flex items-center justify-between z-10 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/5  backdrop-blur-lg transition-all">
             <aside className="flex items-center gap-2 bg-gradient-to-l from-primary to-violet-400 text-transparent bg-clip-text relative">
                 <Link
                     href='/'
